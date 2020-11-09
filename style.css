@@ -1,0 +1,45 @@
+.container {
+    max-width: 400px;
+    min-width: 400px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.form-rounded {
+    border-radius: 50px;
+}
+
+.back-card {
+    border-radius: 40px;
+}
+
+.city-name {
+    width: 100%;
+    position: absolute;
+}
+.city-name p {
+    font-size: 16pt;
+    font-weight: 400;
+    color: white;
+}
+
+.city-name span {
+    font-weight: 400;
+    font-size: 36pt;
+    position: relative;
+    top: -60px;
+}
+
+.temp span {
+    font-weight: 100;
+    font-size: 100px;
+    letter-spacing: -5px;
+    white-space: nowrap;
+}
+
+.resize1 {
+    height: 50px;
+}
