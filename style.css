@@ -9,11 +9,11 @@
 }
 
 .form-rounded {
-    border-radius: 50px;
+    border-radius: 100%;
 }
 
 .back-card {
-    border-radius: 40px;
+    border-radius: 100%;
 }
 
 .city-name {
@@ -43,3 +43,33 @@
 .resize1 {
     height: 50px;
 }
+
+.condition {
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.high::before {
+    content: '';
+    background: url('icons/up.svg')
+    no-repeat;
+    width: 10px;
+    height: 15px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+
+.low::before {
+    content: '';
+    background: url('icons/down.svg')
+    no-repeat;
+    width: 10px;
+    height: 15px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+
